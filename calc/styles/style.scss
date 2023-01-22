@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  background-image: url(./images/fon-s-kotikami.jpg);
+
+  .calculator {
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Gill Sans', sans-serif;
+      font-size: 2.5rem;
+    }
+
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    background-color: violet;
+    margin-top: 10%;
+    padding-top: 20px;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    input,
+    #result {
+      width: 50%;
+      height: 10%;
+      padding-top: 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    button {
+      text-transform: uppercase;
+
+
+    }
+
+    #plus,
+    #minus,
+    #times,
+    #divide {
+      width: 5.3rem;
+      height: 2.2rem;
+      background-color: deeppink;
+    }
+
+    p {
+
+      width: 50%;
+      text-align: center;
+      font-size: 2.5rem;
+    }
+  }
+}
